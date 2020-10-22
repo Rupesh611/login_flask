@@ -6,7 +6,7 @@ from flask_restful import Resource, Api , reqparse
 from front import *
 from controller import *
 app = Flask(__name__)
-key = 'secret'e
+key = 'secret'
 
 api= Api(app)
 
